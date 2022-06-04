@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+#left {
+  background-color: red;
+  width: 20%;
+  height: 100vh;
+  opacity: 0.7;
+}
+
+#right {
+  background-color: whitesmoke;
+  width: 80%;
+  height: 100vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#left h3 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+  font-size: 30px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  overflow: auto;
+}
+
+#left ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+#left ul li a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#left ul li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+}
+
+hr {
+  width: 50px;
+  border: 5px solid red;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+#right #images img {
+  display: flex;
+  display: inline;
+  width: 46%;
+  height: 400px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  opacity: 0.7;
+}
+#right #images img:hover {
+  opacity: 1;
+}
+
+#right h1 {
+  padding-top: 70px;
+  font-size: 80px;
+  margin: 40px;
+  width: 1000px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#right h2 {
+  font-size: 50px;
+  margin: 40px;
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#right .text p {
+  text-align: left;
+  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#right .designers h3 {
+  text-align: left;
+  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.design-container .content {
+  width: 32%;
+  background-color: rgb(209, 198, 198);
+}
+
+.design-container img {
+  width: 100%;
+}
+
+.design-container h3,
+h4,
+p {
+  padding: 10px;
+}
+
+.design-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.design-container h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  opacity: 0.7;
+}
+
+.design-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.design-container h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.packages {
+  padding: 20px;
+  display: inline-block;
+  width: 45%;
+  height: 300px;
+}
+
+#pac #first {
+  margin-left: 40px;
+  font-size: 25px;
+  border-top: 1px solid grey;
+  background-color: rgb(94, 92, 92);
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.packages ul li {
+  font-size: 18px;
+  border-bottom: 1px solid grey;
+  padding: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  background-color: rgba(215, 207, 207, 0.372);
+}
+
+.packages ul .price li:first-child {
+  border-bottom: 0;
+  font-weight: 500;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  padding-bottom: 5px;
+}
+
+.packages ul .price li:nth-child(2) {
+  color: grey;
+  padding-top: 2px;
+}
+
+#pac #sign1 {
+  margin-left: 40px;
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(215, 207, 207, 0.372);
+}
+
+#pac #sign1 #one {
+  padding: 15px;
+  background-color: white;
+  font-size: 14px;
+  width: 50px;
+  margin: auto;
+}
+
+#pac #sign1 #one:hover,
+#pac #sign2 #two:hover {
+  background-color: black;
+  color: white;
+}
+
+#pac {
+  display: inline;
+}
+
+#pac #second {
+  margin-left: 40px;
+  font-size: 25px;
+  border-top: 1px solid grey;
+  background-color: red;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+#pac #sign2 {
+  margin-left: 40px;
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(215, 207, 207, 0.372);
+}
+
+#pac #sign2 #two {
+  padding: 15px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  width: 50px;
+  margin: auto;
+}
+
+form {
+  width: 100%;
+  padding-left: 50px;
+}
+
+label,
+input {
+  width: 90%;
+  padding: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+#button {
+  width: 93%;
+  height: 40px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+#button:hover{
+  background-color: rgb(164, 160, 160);
+  color:black;
+  opacity: 1;
+}
+
+#footer{
+  background-color: rgba(151, 145, 145, 0.372);
+  height: 200px;
+  padding: 130px 0 0 500px;
+  display: flex;
+  font-size: 30px;
+}
+
+#footer a{
+    color: blue;
+    font-size: 30px;
+}
+
+#footer a:hover{
+  color: purple;
+}
